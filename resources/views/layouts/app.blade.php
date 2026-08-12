@@ -19,9 +19,9 @@
         <H2>Menu</H2>
         <nav>
 
-    <a href="http://">Dashboard</a>
-    <a href="http://">Employees</a>
-    <a href="http://">Departments</a>
+    <a href="/">Dashboard</a>
+    <a href="/employees">Employees</a>
+    <a href="/departments">Departments</a>
 </nav>
 
     </ASide>
