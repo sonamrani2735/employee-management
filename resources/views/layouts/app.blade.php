@@ -6,8 +6,12 @@
     <title>Employee Management System</title>
 </head>
 <body>
-    <header>
-        <h1>Employee Management System</h1>
+ <header>
+    <h1>Employee Management System</h1>
+
+    <div>
+        <span>Welcome, Admin</span>
+    </div>
 </header>
 <nav>
 
@@ -18,9 +22,9 @@
     <main>
         @yield('content')
     </main>
-    <!-- <footer>
+    <footer>
         <p>&copy; 2024 Employee Management System. All rights reserved.</p>
-    </footer> -->
+    </footer>
 
 </body>
 </html>
