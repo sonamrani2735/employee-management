@@ -13,15 +13,22 @@
         <span>Welcome, Admin</span>
     </div>
 </header>
-<nav>
+
+<div>
+    <ASide>
+        <H2>Menu</H2>
+        <nav>
 
     <a href="http://">Dashboard</a>
     <a href="http://">Employees</a>
     <a href="http://">Departments</a>
 </nav>
+
+    </ASide>
     <main>
         @yield('content')
     </main>
+</div>
     <footer>
         <p>&copy; 2024 Employee Management System. All rights reserved.</p>
     </footer>
