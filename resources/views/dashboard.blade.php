@@ -1,10 +1,12 @@
-
-    
-    @extends('layouts.app')
+@extends('layouts.app')
     @section('content')
-
-
     <hr>
+
+     <h2>Welcome1, {{ $name }}</h2>
+
+    <p>Total Employees: {{ $totalEmployees }}</p>
+
+    <p>Department: {{ $department }}</p>
     <div>
         <h3>Total Employees</h3>
         <p>0</p>
